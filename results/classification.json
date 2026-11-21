@@ -1,0 +1,23 @@
+{
+  "Fine-tuned distilbert-base-uncased (PyTorch)": {
+    "model": "ft",
+    "accuracy": 0.7323943661971831,
+    "f1_macro": 0.6731740595579297,
+    "train_seconds": 3384.2778189150004,
+    "predict_ms": 114.33387820724377
+  },
+  "TF-IDF + logistic regression": {
+    "model": "tfidf",
+    "accuracy": 0.6197183098591549,
+    "f1_macro": 0.578654965907844,
+    "train_seconds": 12.255602950000139,
+    "predict_ms": 0.8605502414489377
+  },
+  "Embeddings (bge-small-en-v1.5) + logistic regression": {
+    "model": "emb",
+    "accuracy": 0.6378269617706237,
+    "f1_macro": 0.6089531932348073,
+    "train_seconds": 281.29973598183835,
+    "predict_ms": 141.4920732679308
+  }
+}

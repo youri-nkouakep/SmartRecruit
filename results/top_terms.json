@@ -1,0 +1,242 @@
+{
+ "Accountant": [
+  "accountant",
+  "accounting",
+  "reconciliations",
+  "entries",
+  "financial",
+  "ledger",
+  "bank",
+  "financial statements"
+ ],
+ "Advocate": [
+  "advocate",
+  "child",
+  "care",
+  "health",
+  "court",
+  "patients",
+  "case",
+  "advocate company"
+ ],
+ "Agriculture": [
+  "agriculture",
+  "agricultural",
+  "extension",
+  "farmers",
+  "government",
+  "soil",
+  "research assistant",
+  "laboratory"
+ ],
+ "Apparel": [
+  "apparel",
+  "merchandising",
+  "fashion",
+  "store",
+  "merchandise",
+  "sales",
+  "inventory",
+  "product"
+ ],
+ "Arts": [
+  "arts",
+  "arts teacher",
+  "art",
+  "language arts",
+  "music",
+  "martial arts",
+  "martial",
+  "students"
+ ],
+ "Automobile": [
+  "automobile",
+  "aaa",
+  "auto",
+  "inquiries",
+  "claims",
+  "vehicle",
+  "customer",
+  "customer service"
+ ],
+ "Aviation": [
+  "aviation",
+  "aircraft",
+  "flight",
+  "navy",
+  "maintenance",
+  "repair",
+  "military",
+  "safety"
+ ],
+ "BPO": [
+  "bpo",
+  "google maps",
+  "escalations",
+  "metrics",
+  "client",
+  "network devices",
+  "fios",
+  "agents"
+ ],
+ "Banking": [
+  "banking",
+  "bank",
+  "financial",
+  "loan",
+  "loans",
+  "credit",
+  "mortgage",
+  "branch"
+ ],
+ "Business Development": [
+  "business development",
+  "development manager",
+  "experience business",
+  "sales",
+  "development",
+  "marketing",
+  "business",
+  "sales marketing"
+ ],
+ "Chef": [
+  "chef",
+  "food",
+  "kitchen",
+  "culinary",
+  "cooking",
+  "menu",
+  "restaurant",
+  "executive chef"
+ ],
+ "Construction": [
+  "construction",
+  "construction projects",
+  "site",
+  "concrete",
+  "construction worker",
+  "construction management",
+  "construction manager",
+  "project"
+ ],
+ "Consultant": [
+  "consultant",
+  "experience consultant",
+  "consulting",
+  "consultant company",
+  "current consultant",
+  "consultant 01",
+  "windows",
+  "models"
+ ],
+ "Designer": [
+  "designer",
+  "design",
+  "graphic",
+  "designs",
+  "designing",
+  "graphic designer",
+  "drawings",
+  "3d"
+ ],
+ "Digital Media": [
+  "digital",
+  "media",
+  "digital media",
+  "social media",
+  "content",
+  "social",
+  "analytics",
+  "marketing"
+ ],
+ "Engineering": [
+  "engineering",
+  "experience engineering",
+  "electrical",
+  "engineer",
+  "engineering intern",
+  "manufacturing",
+  "engineering manager",
+  "mechanical"
+ ],
+ "Finance": [
+  "finance",
+  "finance manager",
+  "financial",
+  "accounting",
+  "experience finance",
+  "audit",
+  "budgets",
+  "finance director"
+ ],
+ "Fitness": [
+  "fitness",
+  "exercise",
+  "club",
+  "fitness instructor",
+  "members",
+  "personal training",
+  "gym",
+  "instructor"
+ ],
+ "HR": [
+  "hr",
+  "employee",
+  "human",
+  "human resources",
+  "benefits",
+  "employee relations",
+  "payroll",
+  "experience hr"
+ ],
+ "Healthcare": [
+  "healthcare",
+  "medical",
+  "care",
+  "patient",
+  "clinical",
+  "health",
+  "health care",
+  "physicians"
+ ],
+ "Information Technology": [
+  "information technology",
+  "technology",
+  "network",
+  "hardware",
+  "information",
+  "infrastructure",
+  "technology specialist",
+  "help desk"
+ ],
+ "Public Relations": [
+  "public relations",
+  "public",
+  "relations",
+  "press",
+  "media",
+  "press releases",
+  "releases",
+  "events"
+ ],
+ "Sales": [
+  "experience sales",
+  "sales",
+  "sales associate",
+  "customers",
+  "store",
+  "products",
+  "friendly",
+  "sales representative"
+ ],
+ "Teacher": [
+  "teacher",
+  "classroom",
+  "students",
+  "teaching",
+  "learning",
+  "lesson",
+  "children",
+  "grade"
+ ]
+}
