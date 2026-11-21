@@ -1,0 +1,5 @@
+.git
+models/
+data/resumes.csv
+__pycache__
+venv
