@@ -1,0 +1,25 @@
+offer,P@10,nDCG@10,MRR
+Accountant,1.0,1.0,1.0
+Advocate,0.8,0.864,1.0
+Agriculture,0.9,0.922,1.0
+Apparel,0.9,0.936,1.0
+Arts,0.3,0.437,1.0
+Automobile,0.1,0.078,0.167
+Aviation,0.8,0.824,1.0
+BPO,0.3,0.372,1.0
+Banking,1.0,1.0,1.0
+Business Development,0.8,0.795,1.0
+Chef,1.0,1.0,1.0
+Construction,1.0,1.0,1.0
+Consultant,0.4,0.447,1.0
+Designer,0.7,0.741,1.0
+Digital Media,1.0,1.0,1.0
+Engineering,0.6,0.59,1.0
+Finance,0.6,0.643,1.0
+Fitness,0.9,0.89,1.0
+Healthcare,0.5,0.523,1.0
+HR,1.0,1.0,1.0
+Information Technology,0.4,0.401,0.5
+Public Relations,1.0,1.0,1.0
+Sales,0.5,0.426,0.333
+Teacher,0.7,0.722,1.0

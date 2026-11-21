@@ -1,0 +1,122 @@
+[
+ {
+  "id": "offer_00",
+  "category": "Accountant",
+  "text": "Accountant. Prepare monthly closings, journal entries and account reconciliations. Maintain the general ledger, accounts payable and receivable, and support the annual audit. Requirements: degree in accounting, GAAP knowledge, advanced Excel, ERP experience (SAP or QuickBooks)."
+ },
+ {
+  "id": "offer_01",
+  "category": "Advocate",
+  "text": "Client Advocate. Represent and support clients in social services and legal processes, coordinate with case managers and community organizations, document cases and ensure clients' rights are respected. Requirements: experience in advocacy or case management, strong communication, knowledge of community resources."
+ },
+ {
+  "id": "offer_02",
+  "category": "Agriculture",
+  "text": "Agricultural Specialist. Advise farmers on crop production, soil management and pest control, run field trials and extension programs, and collect agronomic data. Requirements: degree in agronomy or agricultural science, field experience, knowledge of irrigation and sustainable farming."
+ },
+ {
+  "id": "offer_03",
+  "category": "Apparel",
+  "text": "Apparel Merchandiser. Plan assortments for clothing collections, follow trends, work with buyers and vendors on product development and pricing, and analyze sell-through. Requirements: experience in fashion retail or merchandising, product knowledge, analytical skills."
+ },
+ {
+  "id": "offer_04",
+  "category": "Arts",
+  "text": "Arts Program Coordinator. Organize exhibitions, workshops and community art programs, manage artists and budgets, and promote events. Requirements: background in fine arts or art education, event planning, creativity, grant writing a plus."
+ },
+ {
+  "id": "offer_05",
+  "category": "Automobile",
+  "text": "Automotive Technician. Diagnose and repair vehicles, perform maintenance on engines, brakes, transmissions and electrical systems, and use diagnostic tools. Requirements: automotive training or ASE certification, experience in a dealership or repair shop."
+ },
+ {
+  "id": "offer_06",
+  "category": "Aviation",
+  "text": "Aviation Maintenance Technician. Inspect, maintain and repair aircraft systems according to FAA regulations, document work orders and support flight operations safety. Requirements: A&P license or military aviation experience, knowledge of aircraft systems."
+ },
+ {
+  "id": "offer_07",
+  "category": "BPO",
+  "text": "BPO Team Lead. Manage a customer support team in a call center, monitor KPIs such as average handle time and customer satisfaction, coach agents and handle escalations. Requirements: experience in BPO or contact center operations, team leadership."
+ },
+ {
+  "id": "offer_08",
+  "category": "Banking",
+  "text": "Banking Relationship Manager. Manage client portfolios, open accounts, sell loans and banking products, ensure compliance with KYC and AML rules, and grow branch deposits. Requirements: retail banking experience, customer service, sales targets."
+ },
+ {
+  "id": "offer_09",
+  "category": "Business Development",
+  "text": "Business Development Manager. Identify new markets and partners, generate leads, negotiate contracts and build long-term client relationships to grow revenue. Requirements: B2B sales or business development experience, CRM, negotiation, strategic planning."
+ },
+ {
+  "id": "offer_10",
+  "category": "Chef",
+  "text": "Chef de Cuisine. Lead the kitchen team, design menus, control food costs and inventory, and ensure food safety and quality standards. Requirements: culinary degree or equivalent, experience as sous chef or chef, ServSafe certification."
+ },
+ {
+  "id": "offer_11",
+  "category": "Construction",
+  "text": "Construction Project Manager. Plan and supervise construction projects, manage subcontractors, schedules and budgets, and enforce site safety (OSHA). Requirements: experience in construction management, blueprint reading, cost estimation."
+ },
+ {
+  "id": "offer_12",
+  "category": "Consultant",
+  "text": "Management Consultant. Analyze client business problems, run workshops, build recommendations and support implementation of process improvements. Requirements: consulting experience, problem solving, presentation skills, project management."
+ },
+ {
+  "id": "offer_13",
+  "category": "Designer",
+  "text": "Graphic Designer. Create visual identities, marketing materials, web and print layouts, and collaborate with marketing teams. Requirements: portfolio, Adobe Photoshop, Illustrator and InDesign, typography and branding skills."
+ },
+ {
+  "id": "offer_14",
+  "category": "Digital Media",
+  "text": "Digital Media Specialist. Produce and manage content for social media and websites, run digital campaigns, analyze engagement with Google Analytics and optimize SEO. Requirements: experience in digital marketing, content creation, video editing."
+ },
+ {
+  "id": "offer_15",
+  "category": "Engineering",
+  "text": "Engineering Specialist. Design, test and improve mechanical or electrical systems, write technical documentation and support manufacturing. Requirements: engineering degree, CAD tools, quality and process improvement, technical problem solving."
+ },
+ {
+  "id": "offer_16",
+  "category": "Finance",
+  "text": "Financial Analyst. Build financial models, budgets and forecasts, analyze variances and prepare reports for management decisions. Requirements: degree in finance, Excel modeling, FP&A experience, knowledge of financial statements."
+ },
+ {
+  "id": "offer_17",
+  "category": "Fitness",
+  "text": "Fitness Trainer. Design personalized training programs, lead group exercise classes and coach clients on nutrition and healthy habits. Requirements: personal trainer certification (NASM, ACE), CPR, experience in a gym or fitness center."
+ },
+ {
+  "id": "offer_18",
+  "category": "Healthcare",
+  "text": "Healthcare Coordinator. Coordinate patient care, schedule appointments, maintain medical records and ensure compliance with HIPAA. Requirements: experience in a hospital or clinic, medical terminology, EMR systems, patient care."
+ },
+ {
+  "id": "offer_19",
+  "category": "HR",
+  "text": "Human Resources Generalist. Manage recruitment, onboarding, employee relations, benefits and payroll, and ensure compliance with labor law. Requirements: HR experience, HRIS, knowledge of employment law, interviewing."
+ },
+ {
+  "id": "offer_20",
+  "category": "Information Technology",
+  "text": "IT Support Specialist. Install and maintain hardware, software and networks, manage user accounts, troubleshoot incidents and ensure system security. Requirements: IT experience, Windows and Active Directory, networking, help desk ticketing."
+ },
+ {
+  "id": "offer_21",
+  "category": "Public Relations",
+  "text": "Public Relations Specialist. Write press releases, manage media relations, organize events and protect the brand reputation. Requirements: PR or communications degree, media contacts, excellent writing, social media."
+ },
+ {
+  "id": "offer_22",
+  "category": "Sales",
+  "text": "Sales Representative. Prospect new customers, present products, close sales and meet monthly quotas while maintaining customer relationships. Requirements: sales experience, CRM, negotiation, customer service."
+ },
+ {
+  "id": "offer_23",
+  "category": "Teacher",
+  "text": "Teacher. Plan and deliver lessons, assess students, manage the classroom and communicate with parents. Requirements: teaching certification, classroom experience, curriculum development, differentiated instruction."
+ }
+]

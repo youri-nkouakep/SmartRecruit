@@ -1,0 +1,5 @@
+,P@10,nDCG@10,MRR
+BM25,0.708,0.727,0.868
+Dense (bge-small + FAISS),0.725,0.745,0.888
+"Hybrid (BM25 + dense, RRF)",0.75,0.747,0.83
+Hybrid + cross-encoder re-ranking,0.717,0.734,0.917

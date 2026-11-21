@@ -1,0 +1,877 @@
+{
+  "summary": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "offers": 24,
+    "bullets": 83,
+    "cited_bullets": 57,
+    "citation_rate": 0.6867469879518072,
+    "mean_seconds": 14.095833333333333,
+    "answers_fully_cited": 17
+  },
+  "examples": [
+    {
+      "offer": "Accountant",
+      "resume_id": 21338490,
+      "resume_category": "Accountant",
+      "evidence": [
+        {
+          "requirement": "accounts payable and receivable",
+          "evidence": "Collection functions for accounts receivables & payables.",
+          "similarity": 0.8793661594390869
+        },
+        {
+          "requirement": "journal entries and account reconciliations",
+          "evidence": "Reconcile bank statements, ledger entries and journal entries.",
+          "similarity": 0.8605101108551025
+        },
+        {
+          "requirement": "Prepare monthly closings",
+          "evidence": "Assist in budget and forecast preparation.",
+          "similarity": 0.7564866542816162
+        },
+        {
+          "requirement": "Maintain the general ledger",
+          "evidence": "Review general ledger and make all correcting journal entries Support month-end and year-end close process including reconciliation of ledger account Complete and submit food and sales tax license documentation for small businesses.",
+          "similarity": 0.7418754696846008
+        },
+        {
+          "requirement": "and support the annual audit",
+          "evidence": "Prepared company accounts and tax returns for audit.",
+          "similarity": 0.7360608577728271
+        }
+      ],
+      "answer": "- **Requirement:** Degree in Accounting [E1]\n  - The resume mentions \"Collection functions for accounts receivables & payables,\" indicating that the candidate has some understanding of collection processes, which could be related to an accounting role.\n\n- **Requirement:** GAAP Knowledge [E2]\n  - While not explicitly stated, the mention of preparing budgets and forecasts suggests familiarity with financial reporting standards, implying a level of GAAP knowledge.\n\n- **Requirement:** Advanced Excel [E3]\n  - There is no direct evidence provided about proficiency in Excel, but the need to reconcile bank statements and perform journal entries implies basic skills in using Excel for financial tasks. However, this does not meet the advanced level required.",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 27.2
+    },
+    {
+      "offer": "Advocate",
+      "resume_id": 16332348,
+      "resume_category": "Advocate",
+      "evidence": [
+        {
+          "requirement": "coordinate with case managers and community organizations",
+          "evidence": "Guided victims by providing case-related medical and legal information.",
+          "similarity": 0.7243972420692444
+        },
+        {
+          "requirement": "document cases and ensure clients' rights are respected",
+          "evidence": "Managed victim case files, following state and agency guidelines.",
+          "similarity": 0.7133574485778809
+        },
+        {
+          "requirement": "Represent and support clients in social services and legal processes",
+          "evidence": "Counseled victims, families, and significant others.",
+          "similarity": 0.7107558250427246
+        },
+        {
+          "requirement": "Client Advocate",
+          "evidence": "Conducted follow up calls and scheduled appointments for clients.",
+          "similarity": 0.701758861541748
+        },
+        {
+          "requirement": "strong communication",
+          "evidence": "Maintained friendly and professional customer interactions.",
+          "similarity": 0.6955855488777161
+        }
+      ],
+      "answer": "- **Requirement:** Experience in Advocacy or Case Management\n  - [E3]\n\n- **Requirement:** Strong Communication\n  - [E5]\n\n- **Requirement:** Knowledge of Community Resources\n  - [E2]",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 8.8
+    },
+    {
+      "offer": "Agriculture",
+      "resume_id": 24068423,
+      "resume_category": "Agriculture",
+      "evidence": [
+        {
+          "requirement": "knowledge of irrigation and sustainable farming",
+          "evidence": "Goyal (Ed), Micro-irrigation management in trees and vines.",
+          "similarity": 0.804040789604187
+        },
+        {
+          "requirement": "soil management and pest control",
+          "evidence": "Solved site specific soil, nutrient, pest and disease problems in the field.",
+          "similarity": 0.7644118070602417
+        },
+        {
+          "requirement": "and collect agronomic data",
+          "evidence": "Worked on agronomic practices for field crops and fruits, vegetables and trees.",
+          "similarity": 0.7498183250427246
+        },
+        {
+          "requirement": "Advise farmers on crop production",
+          "evidence": "Investigated rice response to nitrogen fertilization in farmer's fields.",
+          "similarity": 0.7443585395812988
+        },
+        {
+          "requirement": "field experience",
+          "evidence": "Worked on agronomic practices for field crops and fruits, vegetables and trees.",
+          "similarity": 0.7016199827194214
+        }
+      ],
+      "answer": "* Requirement: Knowledge of Irrigation and Sustainable Farming - Met ([E1])\n* Requirement: Soil Management and Pest Control - Met ([E2])\n* Requirement: Collect Agronomic Data - Met ([E3])",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 9.0
+    },
+    {
+      "offer": "Apparel",
+      "resume_id": 83566455,
+      "resume_category": "Apparel",
+      "evidence": [
+        {
+          "requirement": "work with buyers and vendors on product development and pricing",
+          "evidence": "Collaborates with manufacturers to create the best product plans and boost sales revenue.",
+          "similarity": 0.7546805143356323
+        },
+        {
+          "requirement": "Requirements: experience in fashion retail or merchandising",
+          "evidence": "Summary Sourcing and Merchandising Analyst committed to staying current on market trends and consumer interests.",
+          "similarity": 0.6500339508056641
+        },
+        {
+          "requirement": "Plan assortments for clothing collections",
+          "evidence": "01/2002 to 06/2003 CONTROL BUYER Company Name \uff0d City , State Prevented backorders with use of sales forecasts and inventory analysis Established minimum levels to place reorders Communicated with vendors to place reorders and track deliveries Maintained and used assortment plans Placed initial buys and planned items to be carried in future catalogs.",
+          "similarity": 0.6462540626525879
+        },
+        {
+          "requirement": "Apparel Merchandiser",
+          "evidence": "Summary Sourcing and Merchandising Analyst committed to staying current on market trends and consumer interests.",
+          "similarity": 0.6403100490570068
+        },
+        {
+          "requirement": "and analyze sell-through",
+          "evidence": "Summary Sourcing and Merchandising Analyst committed to staying current on market trends and consumer interests.",
+          "similarity": 0.6243743300437927
+        }
+      ],
+      "answer": "- **Requirements Met**: \n  - Work with buyers and vendors on product development and pricing ([E3])\n  - Analyze sell-through ([E5])\n\n- **Requirements Missing**:\n  - Experience in fashion retail or merchandising ([E2])",
+      "cited_bullets": 2,
+      "bullets": 2,
+      "seconds": 9.7
+    },
+    {
+      "offer": "Arts",
+      "resume_id": 22848179,
+      "resume_category": "Arts",
+      "evidence": [
+        {
+          "requirement": "event planning",
+          "evidence": "Event planning and management for community engagement.",
+          "similarity": 0.8605536222457886
+        },
+        {
+          "requirement": "and promote events",
+          "evidence": "Event planning and management for community engagement.",
+          "similarity": 0.7553678750991821
+        },
+        {
+          "requirement": "workshops and community art programs",
+          "evidence": "Event planning and management for community engagement.",
+          "similarity": 0.739954948425293
+        },
+        {
+          "requirement": "Organize exhibitions",
+          "evidence": "Initiated and oversaw student exhibitions to develop community and awareness.",
+          "similarity": 0.7306764125823975
+        },
+        {
+          "requirement": "manage artists and budgets",
+          "evidence": "Process tuition payments, request and track refunds.",
+          "similarity": 0.6749253869056702
+        }
+      ],
+      "answer": "- **Requirements Met**: Event Planning, Promote Events, Workshops and Community Art Programs, Organize Exhibitions, Manage Artists and Budgets  \n- **Requirements Missing**: Background in Fine Arts or Art Education [E1]",
+      "cited_bullets": 1,
+      "bullets": 2,
+      "seconds": 8.6
+    },
+    {
+      "offer": "Automobile",
+      "resume_id": 35737840,
+      "resume_category": "Engineering",
+      "evidence": [
+        {
+          "requirement": "Diagnose and repair vehicles",
+          "evidence": "Machine Repair q Detected machine malfunctions and problem-solved accordingly.",
+          "similarity": 0.7777540683746338
+        },
+        {
+          "requirement": "and use diagnostic tools",
+          "evidence": "Repaired broad range of [machines or systems] including, [types of machines or systems] using [tools].Problem Diagnosis q Used operational knowledge of systems, parts and components to solve problems that arose during assembly.",
+          "similarity": 0.740720808506012
+        },
+        {
+          "requirement": "perform maintenance on engines",
+          "evidence": "Machine Repair q Detected machine malfunctions and problem-solved accordingly.",
+          "similarity": 0.6990725994110107
+        },
+        {
+          "requirement": "experience in a dealership or repair shop",
+          "evidence": "Machine Repair q Detected machine malfunctions and problem-solved accordingly.",
+          "similarity": 0.6812604665756226
+        },
+        {
+          "requirement": "Automotive Technician",
+          "evidence": "Excellent troubleshooting skills.Detail-oriented professional with strong technical skills and the ability to learn concepts quickly.",
+          "similarity": 0.6770073175430298
+        }
+      ],
+      "answer": "- **Diagnose and repair vehicles**: [E1]\n- **Perform maintenance on engines**: [E3]\n- **Experience in a dealership or repair shop**: [E4]\n\n**Missing Requirement**: **Automotive Training or ASE Certification**\n- **Requirement**: Automotive Technician | Evidence: Resume states \"Excellent troubleshooting skills. Detail-oriented professional with strong technical skills and the ability to learn concepts quickly.\" This does not explicitly mention any specific certifications or training programs.",
+      "cited_bullets": 3,
+      "bullets": 4,
+      "seconds": 17.0
+    },
+    {
+      "offer": "Aviation",
+      "resume_id": 82738323,
+      "resume_category": "Aviation",
+      "evidence": [
+        {
+          "requirement": "maintain and repair aircraft systems according to FAA regulations",
+          "evidence": "Troubleshooting inoperative or malfunctioning aircraft systems.",
+          "similarity": 0.8363362550735474
+        },
+        {
+          "requirement": "knowledge of aircraft systems",
+          "evidence": "Troubleshooting inoperative or malfunctioning aircraft systems.",
+          "similarity": 0.8095976114273071
+        },
+        {
+          "requirement": "Aviation Maintenance Technician",
+          "evidence": "Performing troubleshooting functions on electrical, hydraulic, engine and airframe systems and components as required to support the aircraft's maintenance needs.",
+          "similarity": 0.7695067524909973
+        },
+        {
+          "requirement": "document work orders and support flight operations safety",
+          "evidence": "Troubleshooting inoperative or malfunctioning aircraft systems.",
+          "similarity": 0.7507172226905823
+        },
+        {
+          "requirement": "Requirements: A&P license or military aviation experience",
+          "evidence": "Education and Training High School Diploma 2011 Hagerty High School , City , State , USA H-1 Powertrain 2011 Center Naval Aviation Technical Training , City , State , USA Graduated top in class Honor Graduate A&P License 2016 Bakers School of Aeronautics , City , State , USA",
+          "similarity": 0.6681138277053833
+        }
+      ],
+      "answer": "* The candidate meets the requirement for maintaining and repairing aircraft systems according to FAA regulations ([E1]).\n* The candidate demonstrates knowledge of aircraft systems through their resume ([E2]).\n* The candidate identifies themselves as an Aviation Maintenance Technician, aligning with the role requirement ([E3]).",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 10.6
+    },
+    {
+      "offer": "BPO",
+      "resume_id": 16492045,
+      "resume_category": "BPO",
+      "evidence": [
+        {
+          "requirement": "BPO Team Lead",
+          "evidence": "Experience BPO Team Leader 02/2015 to 02/2017 Company Name City , State Managed and motivate BPO Onboarding Team to meet team goals Auditor of documentation and group implementation.",
+          "similarity": 0.7810541391372681
+        },
+        {
+          "requirement": "monitor KPIs such as average handle time and customer satisfaction",
+          "evidence": "Data entry of information of customers.",
+          "similarity": 0.7137753963470459
+        },
+        {
+          "requirement": "team leadership",
+          "evidence": "Experience BPO Team Leader 02/2015 to 02/2017 Company Name City , State Managed and motivate BPO Onboarding Team to meet team goals Auditor of documentation and group implementation.",
+          "similarity": 0.7000067234039307
+        },
+        {
+          "requirement": "Requirements: experience in BPO or contact center operations",
+          "evidence": "Interface with internal and external contacts regarding business unit administration issues and concerns.",
+          "similarity": 0.69423508644104
+        },
+        {
+          "requirement": "Manage a customer support team in a call center",
+          "evidence": "Interact with customers and drivers in regards to pickups/deliveries and/or payments.",
+          "similarity": 0.6707174777984619
+        }
+      ],
+      "answer": "- **Requirement:** Experience in BPO or contact center operations\n  - [E4]\n\n- **Requirement:** Manage a customer support team in a call center\n  - [E5]\n\n- **Requirement:** Monitor KPIs such as average handle time and customer satisfaction\n  - [E2]",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 12.0
+    },
+    {
+      "offer": "Banking",
+      "resume_id": 10329506,
+      "resume_category": "Banking",
+      "evidence": [
+        {
+          "requirement": "sell loans and banking products",
+          "evidence": "New account opening and cross sale of other banking products and services.",
+          "similarity": 0.7896053791046143
+        },
+        {
+          "requirement": "open accounts",
+          "evidence": "New account opening and cross sale of other banking products and services.",
+          "similarity": 0.7837052345275879
+        },
+        {
+          "requirement": "Banking Relationship Manager",
+          "evidence": "Referring identified client needs to other lines of banking divisions.",
+          "similarity": 0.7220678925514221
+        },
+        {
+          "requirement": "Requirements: retail banking experience",
+          "evidence": "Referring identified client needs to other lines of banking divisions.",
+          "similarity": 0.6965646743774414
+        },
+        {
+          "requirement": "Manage client portfolios",
+          "evidence": "Referring identified client needs to other lines of banking divisions.",
+          "similarity": 0.6877445578575134
+        }
+      ],
+      "answer": "- **[E1]** - The candidate mentions selling loans and banking products, meeting one of the required skills.\n- **[E2]** - They state they manage client portfolios, fulfilling another part of the role description.\n- **[E3]** - The candidate refers identified client needs to other lines of banking divisions, indicating an understanding of managing client portfolios, which aligns with the job requirement.",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 15.1
+    },
+    {
+      "offer": "Business Development",
+      "resume_id": 27850777,
+      "resume_category": "Business Development",
+      "evidence": [
+        {
+          "requirement": "Business Development Manager",
+          "evidence": "Business Development Manager versed in building strategic partnerships through persuasion, negotiation and personal presence.Business development professional successful at acquiring, expanding and managing key corporate accounts.",
+          "similarity": 0.821053147315979
+        },
+        {
+          "requirement": "generate leads",
+          "evidence": "Generated 15 leads weekly.",
+          "similarity": 0.7756317257881165
+        },
+        {
+          "requirement": "negotiate contracts and build long-term client relationships to grow revenue",
+          "evidence": "Optimized current revenue streams by networking for additional business prospects with established clients.",
+          "similarity": 0.7562863826751709
+        },
+        {
+          "requirement": "Identify new markets and partners",
+          "evidence": "Leveraged existing network of contacts with new commercial prospects.",
+          "similarity": 0.7400643229484558
+        },
+        {
+          "requirement": "strategic planning",
+          "evidence": "Coordinated and managed major proposal processes from initiation to implementation.",
+          "similarity": 0.72149658203125
+        }
+      ],
+      "answer": "- **[E1]** - The candidate has experience in identifying new markets and partners, as evidenced by leveraging their existing network of contacts with new commercial prospects.\n- **[E2]** - The candidate demonstrates generating leads weekly, aligning with the requirement to identify new markets and partners.\n- **[E3]** - While not explicitly stated, the candidate's efforts to optimize revenue streams by networking for additional business prospects suggest they are actively working towards growing revenue, which indirectly supports the need for negotiating contracts and building long-term client relationships.",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 20.1
+    },
+    {
+      "offer": "Chef",
+      "resume_id": 16248476,
+      "resume_category": "Chef",
+      "evidence": [
+        {
+          "requirement": "Lead the kitchen team",
+          "evidence": "Established and maintained open, collaborative relationships with the kitchen team.",
+          "similarity": 0.7797414064407349
+        },
+        {
+          "requirement": "experience as sous chef or chef",
+          "evidence": "Summary Sous Chef, Lead Cook and Supervisor with 4 years experience in high-pressure culinary environments.",
+          "similarity": 0.7740250825881958
+        },
+        {
+          "requirement": "Requirements: culinary degree or equivalent",
+          "evidence": "Seeking to use culinary skills and expertise to prepare a special variety of dishes in a professional, rewarding environment.",
+          "similarity": 0.7630661129951477
+        },
+        {
+          "requirement": "control food costs and inventory",
+          "evidence": "Highlights Food Cost ServSafe certified Bilingual Rational Degree Inventory management familiarity Focus on portion and cost control Sous vide technique Strong butchery skills Food handlers card Focused and disciplined High volume production capability Well-tuned palette Accomplishments Successfully managed a kitchen staff.",
+          "similarity": 0.7121919393539429
+        },
+        {
+          "requirement": "Chef de Cuisine",
+          "evidence": "CHEF DE PARTIE Experience Company Name City , State Chef de Partie 01/2016 to Current Reduced food costs by expertly estimating purchasing needs and buying through approved suppliers.",
+          "similarity": 0.6741534471511841
+        }
+      ],
+      "answer": "- **Lead the kitchen team**: [E1]\n- **Experience as sous chef or chef**: [E2]\n- **Requirements: culinary degree or equivalent**: [E3]",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 7.1
+    },
+    {
+      "offer": "Construction",
+      "resume_id": 27246366,
+      "resume_category": "Construction",
+      "evidence": [
+        {
+          "requirement": "Requirements: experience in construction management",
+          "evidence": "Coordinated training for the construction teams on site-specific requirements, techniques and procedures.",
+          "similarity": 0.8128302097320557
+        },
+        {
+          "requirement": "Plan and supervise construction projects",
+          "evidence": "Coordinated training for the construction teams on site-specific requirements, techniques and procedures.",
+          "similarity": 0.7913249135017395
+        },
+        {
+          "requirement": "schedules and budgets",
+          "evidence": "Prepare and submit budget estimates, progress reports, or cost tracking reports.",
+          "similarity": 0.7667075395584106
+        },
+        {
+          "requirement": "Construction Project Manager",
+          "evidence": "Coordinated training for the construction teams on site-specific requirements, techniques and procedures.",
+          "similarity": 0.7389194369316101
+        },
+        {
+          "requirement": "and enforce site safety (OSHA)",
+          "evidence": "Direct and supervise workers.",
+          "similarity": 0.7208684086799622
+        }
+      ],
+      "answer": "- **Requirements Met**: Experience in construction management - Evidence E1\n- **Requirements Met**: Plan and supervise construction projects - Evidence E2\n- **Requirements Met**: Schedules and budgets - Evidence E3\n\n- **Requirement Missing**: Enforce site safety (OSHA) - Evidence E5",
+      "cited_bullets": 0,
+      "bullets": 4,
+      "seconds": 11.2
+    },
+    {
+      "offer": "Consultant",
+      "resume_id": 56792999,
+      "resume_category": "Consultant",
+      "evidence": [
+        {
+          "requirement": "Management Consultant",
+          "evidence": "Summary Highly accomplished Management Consultant / Senior Business Analyst with a verifiable track record of managing complex strategy projects and exceeding client expectations.",
+          "similarity": 0.7034826278686523
+        },
+        {
+          "requirement": "build recommendations and support implementation of process improvements",
+          "evidence": "Led team responsible for tooling integration, configuration management, and management of multiple requirements baselines.",
+          "similarity": 0.6658982038497925
+        },
+        {
+          "requirement": "Requirements: consulting experience",
+          "evidence": "Led the requirements definition phase for the development of a custom program management application, incorporating project health, executive dashboards and reporting.",
+          "similarity": 0.6643848419189453
+        },
+        {
+          "requirement": "project management",
+          "evidence": "Solution was awarded best of breed by PwC during compliance review \u200b Federal Housing Finance Agency (FHFA) - Program Management Support Led a Project Management Maturity Assessment in order to define the strategy and operationalize project management disciplines required to establish a PMO.",
+          "similarity": 0.6619874238967896
+        },
+        {
+          "requirement": "Analyze client business problems",
+          "evidence": "Skills Business Process Improvement & Redesign Agile/Scrum SDLC Business Transformation PMO Project management IBM BPM Blockchain Robotic Process Automation Strong analytical skills Experience Managing Consultant 11/2003 to Current Company Name City , State Currently a Managing Consultant in the Customer Engagement & Design practice of IBM Global Business Services, US Federal, with a focus on Cognitive Process Transfomation.",
+          "similarity": 0.6543052196502686
+        }
+      ],
+      "answer": "- **Requirements Met**: Consulting experience [E3], Problem-solving ability [E1], Presentation skills [E1]\n- **Requirements Missing**: Project management [E4] and Analysis of client business problems [E5].",
+      "cited_bullets": 2,
+      "bullets": 2,
+      "seconds": 8.9
+    },
+    {
+      "offer": "Designer",
+      "resume_id": 18460045,
+      "resume_category": "Designer",
+      "evidence": [
+        {
+          "requirement": "marketing materials",
+          "evidence": "Creative design of marketing materials for various clients.",
+          "similarity": 0.8341794013977051
+        },
+        {
+          "requirement": "and collaborate with marketing teams",
+          "evidence": "Creative design of marketing materials for various clients.",
+          "similarity": 0.7659299969673157
+        },
+        {
+          "requirement": "Graphic Designer",
+          "evidence": "Experience Freelance Graphic Designer , 01/2011 to Current Company Name Magazine Layout Design.",
+          "similarity": 0.7483185529708862
+        },
+        {
+          "requirement": "web and print layouts",
+          "evidence": "Preparation of art files and print specifications for various clients.",
+          "similarity": 0.7276792526245117
+        },
+        {
+          "requirement": "Create visual identities",
+          "evidence": "Creative design of marketing materials for various clients.",
+          "similarity": 0.7073429822921753
+        }
+      ],
+      "answer": "- **Portfolio**: The resume mentions creating marketing materials, indicating that there is a portfolio available ([E1]).\n- **Adobe Photoshop, Illustrator, and InDesign**: While not explicitly stated as having these programs, the mention of preparing art files and print specifications suggests proficiency in graphic design software ([E4] and [E5]).\n- **Typography and Branding Skills**: The experience as a freelance graphic designer implies knowledge in typography and branding ([E3]).\n\n[Missing Requirement]: **Collaborate with Marketing Teams** - There is no explicit statement about collaborating with marketing teams in the resume.",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 21.4
+    },
+    {
+      "offer": "Digital Media",
+      "resume_id": 16536141,
+      "resume_category": "Digital Media",
+      "evidence": [
+        {
+          "requirement": "Produce and manage content for social media and websites",
+          "evidence": "Managed new product and content releases.",
+          "similarity": 0.800338089466095
+        },
+        {
+          "requirement": "content creation",
+          "evidence": "Managed new product and content releases.",
+          "similarity": 0.7484734058380127
+        },
+        {
+          "requirement": "analyze engagement with Google Analytics and optimize SEO",
+          "evidence": "Promoted brand awareness through SEO optimization and attractive web design.",
+          "similarity": 0.7347598075866699
+        },
+        {
+          "requirement": "video editing",
+          "evidence": "Collaborated with videographers, editors, designers and talent for production.",
+          "similarity": 0.725476086139679
+        },
+        {
+          "requirement": "Requirements: experience in digital marketing",
+          "evidence": "Highlights Dependable Direct marketing campaigns Mobile marketing Excellent written and verbal communicator Deadline-driven Enthusiastic team player Market segmentation Advertising Self-directed Problem solving Leveraging third-party analysis Cross-functional team leadership Decisive Competitive analysis Go-to-market strategy development Project management Creative and Innovative Accomplishments Developed social media strategy Increased leads through social media engagement and marketing by %% over XXX time.",
+          "similarity": 0.7081242203712463
+        }
+      ],
+      "answer": "- **Requirement:** Experience in Digital Marketing\n  - [E5]\n\n- **Requirement:** Content Creation\n  - [E2]\n\n- **Requirement:** Analyze Engagement with Google Analytics and Optimize SEO\n  - [E3]",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 9.5
+    },
+    {
+      "offer": "Engineering",
+      "resume_id": 17926546,
+      "resume_category": "Engineering",
+      "evidence": [
+        {
+          "requirement": "test and improve mechanical or electrical systems",
+          "evidence": "Testing, Evaluation and Analysis: Tested equipment to ensure compliance.",
+          "similarity": 0.7886399030685425
+        },
+        {
+          "requirement": "quality and process improvement",
+          "evidence": "Testing, Evaluation and Analysis: Tested equipment to ensure compliance.",
+          "similarity": 0.7336817979812622
+        },
+        {
+          "requirement": "write technical documentation and support manufacturing",
+          "evidence": "Testing, Evaluation and Analysis: Tested equipment to ensure compliance.",
+          "similarity": 0.7029211521148682
+        },
+        {
+          "requirement": "Engineering Specialist",
+          "evidence": "Profile Team-oriented Engineering Associate with over 8 years experience designing, developing, maintaining, and testing electro-mechanical systems.",
+          "similarity": 0.6872829794883728
+        },
+        {
+          "requirement": "Requirements: engineering degree",
+          "evidence": "Profile Team-oriented Engineering Associate with over 8 years experience designing, developing, maintaining, and testing electro-mechanical systems.",
+          "similarity": 0.6781330108642578
+        }
+      ],
+      "answer": "- **Requirement:** Test and improve mechanical or electrical systems\n  - [E1]\n\n- **Requirement:** Quality and process improvement\n  - [E2]\n\n- **Requirement:** Write technical documentation and support manufacturing\n  - [E3]",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 10.0
+    },
+    {
+      "offer": "Finance",
+      "resume_id": 26231609,
+      "resume_category": "Finance",
+      "evidence": [
+        {
+          "requirement": "budgets and forecasts",
+          "evidence": "Built and automated budget/forecasting models to ensure accurate and efficient updates to forecasts.",
+          "similarity": 0.8300142288208008
+        },
+        {
+          "requirement": "Build financial models",
+          "evidence": "Built and automated budget/forecasting models to ensure accurate and efficient updates to forecasts.",
+          "similarity": 0.7647544741630554
+        },
+        {
+          "requirement": "analyze variances and prepare reports for management decisions",
+          "evidence": "Established deal tracking mechanism to track financial performance compared to the deal model.",
+          "similarity": 0.7061443328857422
+        },
+        {
+          "requirement": "Excel modeling",
+          "evidence": "Built and automated budget/forecasting models to ensure accurate and efficient updates to forecasts.",
+          "similarity": 0.6912625432014465
+        },
+        {
+          "requirement": "knowledge of financial statements",
+          "evidence": "Reviews deal models and underlying assumptions to ensure effective financial decisions are being made.",
+          "similarity": 0.6767643094062805
+        }
+      ],
+      "answer": "- **Requirements Met:** \n  - Budgets and Forecasts: [E1]\n  - Financial Models: [E2] and [E4]\n  - Analysis of Variances and Preparation of Reports: [E3]\n\n- **Requirements Missing:**\n  - FP&A Experience: None provided in the resume.\n  - Knowledge of Financial Statements: [E5] is mentioned but not explicitly stated as required.",
+      "cited_bullets": 2,
+      "bullets": 2,
+      "seconds": 15.3
+    },
+    {
+      "offer": "Fitness",
+      "resume_id": 24251588,
+      "resume_category": "Fitness",
+      "evidence": [
+        {
+          "requirement": "Fitness Trainer",
+          "evidence": "Specialist in Fitness Nutrition.",
+          "similarity": 0.8277592658996582
+        },
+        {
+          "requirement": "lead group exercise classes and coach clients on nutrition and healthy habits",
+          "evidence": "Strong leadership skills in fitness operations .",
+          "similarity": 0.791838526725769
+        },
+        {
+          "requirement": "Design personalized training programs",
+          "evidence": "Designed individual exercise program consistent with the members' personal fitness and exercise goals.",
+          "similarity": 0.743095338344574
+        },
+        {
+          "requirement": "Requirements: personal trainer certification (NASM",
+          "evidence": "exercise,personal training, weight loss ISSA Personal Trainer Certification.",
+          "similarity": 0.7395098805427551
+        },
+        {
+          "requirement": "experience in a gym or fitness center",
+          "evidence": "classes and youth fitness.",
+          "similarity": 0.7269718647003174
+        }
+      ],
+      "answer": "- **Requirements Met:** \n  - Personal trainer certification (NASM): Evidence E4 matches this requirement as it states \"ISSA Personal Trainer Certification,\" which includes NASM.\n  \n- **Requirement Missing:**\n  - CPR: The resume does not mention any certification for CPR, so this requirement is not met.\n\n- **Requirements Met:**\n  - Lead group exercise classes and coach clients on nutrition and healthy habits: Evidence E2 directly addresses this requirement by stating \"Strong leadership skills in fitness operations.\" This implies the ability to lead groups and provide nutritional guidance.\n\n- **Requirement Missing:**\n  - Experience in a gym or fitness center: While the resume mentions \"classes and youth fitness,\" there's no explicit statement about working in a gym or fitness center. Therefore, this requirement is not fully met based solely on the provided information.",
+      "cited_bullets": 0,
+      "bullets": 4,
+      "seconds": 30.3
+    },
+    {
+      "offer": "Healthcare",
+      "resume_id": 16121387,
+      "resume_category": "Healthcare",
+      "evidence": [
+        {
+          "requirement": "EMR systems",
+          "evidence": "Strong knowledge of Electronic Medical Records(EMR) system.",
+          "similarity": 0.8415838479995728
+        },
+        {
+          "requirement": "maintain medical records and ensure compliance with HIPAA",
+          "evidence": "Maintained Confidentiality, Sensitivity, Accuracy, and Compliance with Organizational and HIPAA Regulations while managing patient, organizational, and healthcare information and entering, updating, and validating records.",
+          "similarity": 0.7997815608978271
+        },
+        {
+          "requirement": "Healthcare Coordinator",
+          "evidence": "HEALTHCARE UNIT COORDINATOR , 01/2012 to 03/2014 Company Name \u2013 City , State UNIT 1.",
+          "similarity": 0.766736626625061
+        },
+        {
+          "requirement": "Coordinate patient care",
+          "evidence": "Investigated and reported issues relating to patient care or conditions that might hinder patient well-being.",
+          "similarity": 0.7505439519882202
+        },
+        {
+          "requirement": "patient care",
+          "evidence": "Investigated and reported issues relating to patient care or conditions that might hinder patient well-being.",
+          "similarity": 0.7498233318328857
+        }
+      ],
+      "answer": "- **Requirement:** Experience in a hospital or clinic | **Met**: Yes ([E3])\n- **Requirement:** Medical terminology | **Met**: Yes ([E1])\n- **Requirement:** Patient care | **Met**: Yes ([E4])\n\n- **Requirement:** Maintain medical records and ensure compliance with HIPAA | **Met**: Yes ([E2])\n- **Requirement:** Healthcare Coordinator | **Missing**: No ([E3])\n- **Requirement:** Coordinate patient care | **Met**: Yes ([E4])",
+      "cited_bullets": 6,
+      "bullets": 6,
+      "seconds": 18.3
+    },
+    {
+      "offer": "HR",
+      "resume_id": 39081840,
+      "resume_category": "HR",
+      "evidence": [
+        {
+          "requirement": "and ensure compliance with labor law",
+          "evidence": "Reviewed federal, state, and local employment law to confirm and enforce company compliance.",
+          "similarity": 0.7886204719543457
+        },
+        {
+          "requirement": "benefits and payroll",
+          "evidence": "Administered benefits for all benefit-eligible employees.",
+          "similarity": 0.7529683113098145
+        },
+        {
+          "requirement": "employee relations",
+          "evidence": "Solved and assisted management in multiple employee-related issues.",
+          "similarity": 0.7452425360679626
+        },
+        {
+          "requirement": "knowledge of employment law",
+          "evidence": "Reviewed federal, state, and local employment law to confirm and enforce company compliance.",
+          "similarity": 0.7426749467849731
+        },
+        {
+          "requirement": "Manage recruitment",
+          "evidence": "Solved and assisted management in multiple employee-related issues.",
+          "similarity": 0.6833927035331726
+        }
+      ],
+      "answer": "* **[E1]** - The candidate ensures compliance with labor law as evidenced by their review of federal, state, and local employment laws to confirm and enforce company compliance.\n  \n* **[E4]** - The candidate has knowledge of employment law, as shown by their review of federal, state, and local employment laws to confirm and enforce company compliance.\n\n* **[E5]** - The candidate manages recruitment, as demonstrated by solving and assisting management in multiple employee-related issues.",
+      "cited_bullets": 3,
+      "bullets": 3,
+      "seconds": 17.3
+    },
+    {
+      "offer": "Information Technology",
+      "resume_id": 63989974,
+      "resume_category": "Automobile",
+      "evidence": [
+        {
+          "requirement": "Install and maintain hardware",
+          "evidence": "Install and configure software upgrades, PC, and Laptop support.",
+          "similarity": 0.7894670963287354
+        },
+        {
+          "requirement": "troubleshoot incidents and ensure system security",
+          "evidence": "Configured and monitor network security (watch guard firewall) Troubleshooting network and printer connectivity issues, install network cabling, and phone jacks.",
+          "similarity": 0.742123007774353
+        },
+        {
+          "requirement": "software and networks",
+          "evidence": "Monitor server performance for network connectivity.",
+          "similarity": 0.7237825989723206
+        },
+        {
+          "requirement": "help desk ticketing",
+          "evidence": "04/2000 to 02/2002 Network Support Specialist Company Name \uff0d City , State Open and track problem tickets to resolution Provided Second level propriety application/system support to internal and external customers.",
+          "similarity": 0.6971859931945801
+        },
+        {
+          "requirement": "IT Support Specialist",
+          "evidence": "04/2000 to 02/2002 Network Support Specialist Company Name \uff0d City , State Open and track problem tickets to resolution Provided Second level propriety application/system support to internal and external customers.",
+          "similarity": 0.6921396851539612
+        }
+      ],
+      "answer": "- Requirement: IT experience - Missing\n- Evidence ID: E1\n\n- Requirement: Windows and Active Directory - Missing\n- Evidence ID: None\n\n- Requirement: Networking - Met\n- Evidence ID: E3\n\n- Requirement: Help Desk Ticketing - Met\n- Evidence ID: E4\n\n- Requirement: System Security - Missing\n- Evidence ID: None",
+      "cited_bullets": 0,
+      "bullets": 10,
+      "seconds": 13.8
+    },
+    {
+      "offer": "Public Relations",
+      "resume_id": 25413261,
+      "resume_category": "Public Relations",
+      "evidence": [
+        {
+          "requirement": "Public Relations Specialist",
+          "evidence": "Public Relations Specialist with 20+years in marketing and PR.",
+          "similarity": 0.8578464984893799
+        },
+        {
+          "requirement": "manage media relations",
+          "evidence": "Manage and attend media related events.",
+          "similarity": 0.8475967645645142
+        },
+        {
+          "requirement": "media contacts",
+          "evidence": "Manage and attend media related events.",
+          "similarity": 0.7619766592979431
+        },
+        {
+          "requirement": "organize events and protect the brand reputation",
+          "evidence": "Manage and attend media related events.",
+          "similarity": 0.7535760402679443
+        },
+        {
+          "requirement": "Requirements: PR or communications degree",
+          "evidence": "Public Relations Specialist with 20+years in marketing and PR.",
+          "similarity": 0.7043054103851318
+        }
+      ],
+      "answer": "- **Requirements Met**: \n  - [E1] Public Relations Specialist\n  - [E2] Manage media relations\n  - [E3] Media contacts\n\n- **Requirements Missing**:\n  - [E4] Organize events and protect the brand reputation\n  - [E5] PR or communications degree",
+      "cited_bullets": 2,
+      "bullets": 2,
+      "seconds": 12.0
+    },
+    {
+      "offer": "Sales",
+      "resume_id": 20110597,
+      "resume_category": "Healthcare",
+      "evidence": [
+        {
+          "requirement": "Requirements: sales experience",
+          "evidence": "Demonstrates prospecting skills, meets or exceeds sales goals.",
+          "similarity": 0.7486597895622253
+        },
+        {
+          "requirement": "Prospect new customers",
+          "evidence": "Assists with outbound campaigns to ensure customer satisfaction.",
+          "similarity": 0.7452312111854553
+        },
+        {
+          "requirement": "close sales and meet monthly quotas while maintaining customer relationships",
+          "evidence": "Assists with outbound campaigns to ensure customer satisfaction.",
+          "similarity": 0.7394804954528809
+        },
+        {
+          "requirement": "customer service",
+          "evidence": "amp; manager to enhance customer service.",
+          "similarity": 0.7257288098335266
+        },
+        {
+          "requirement": "Sales Representative",
+          "evidence": "Demonstrates prospecting skills, meets or exceeds sales goals.",
+          "similarity": 0.7003052234649658
+        }
+      ],
+      "answer": "- **Requirement:** Sales Experience\n  - Evidence: E1\n\n- **Requirement:** Customer Service\n  - Evidence: E4\n\n- **Requirement:** Negotiation\n  - Evidence: N/A",
+      "cited_bullets": 0,
+      "bullets": 3,
+      "seconds": 8.2
+    },
+    {
+      "offer": "Teacher",
+      "resume_id": 28642819,
+      "resume_category": "Teacher",
+      "evidence": [
+        {
+          "requirement": "assess students",
+          "evidence": "Evaluate and test students for appropriate class placement.",
+          "similarity": 0.8763701915740967
+        },
+        {
+          "requirement": "Plan and deliver lessons",
+          "evidence": "Lesson Planning: Introduced new learning methods to ensure total comprehension for all students.",
+          "similarity": 0.81231689453125
+        },
+        {
+          "requirement": "manage the classroom and communicate with parents",
+          "evidence": "Parent Communication Regularly met with parents to discuss student issues and course weakness areas.",
+          "similarity": 0.7659709453582764
+        },
+        {
+          "requirement": "differentiated instruction",
+          "evidence": "Lesson Planning: Introduced new learning methods to ensure total comprehension for all students.",
+          "similarity": 0.7605774402618408
+        },
+        {
+          "requirement": "classroom experience",
+          "evidence": "Evaluated and tested students for appropriate class placement.",
+          "similarity": 0.7588117122650146
+        }
+      ],
+      "answer": "- **Requirements Met**: Assessing Students ([E1])\n- **Requirements Missing**: Teaching Certification, Classroom Experience, Curriculum Development, Differentiated Instruction\n\n- **Requirements Met**: Managing the Classroom and Communicating with Parents ([E3])\n- **Requirements Missing**: Teaching Certification, Classroom Experience, Curriculum Development, Differentiated Instruction\n\n- **Requirements Met**: Differentiated Instruction ([E4])\n- **Requirements Missing**: Teaching Certification, Classroom Experience, Curriculum Development, Differentiated Instruction",
+      "cited_bullets": 3,
+      "bullets": 6,
+      "seconds": 16.9
+    }
+  ]
+}
