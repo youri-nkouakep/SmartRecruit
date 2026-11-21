@@ -1,0 +1,40 @@
+{
+  "TF-IDF classifier": {
+    "decision_flip_rate": 0.0,
+    "gender:female": 0.41253456461924387,
+    "gender:male": 0.41253456461924387,
+    "origin:white": 0.41237716739239194,
+    "origin:black": 0.4124419578533235,
+    "origin:north_african": 0.412784568612016,
+    "gender_gap": 0.0,
+    "origin_gap": 0.0004074012196240706
+  },
+  "Fine-tuned DistilBERT classifier": {
+    "decision_flip_rate": 0.026111111111111113,
+    "gender:female": 0.6932226419448853,
+    "gender:male": 0.6941598057746887,
+    "origin:white": 0.6959112286567688,
+    "origin:black": 0.6946430206298828,
+    "origin:north_african": 0.6905195713043213,
+    "gender_gap": 0.0009371638298034668,
+    "origin_gap": 0.00539165735244751
+  },
+  "Dense retrieval score (cosine)": {
+    "gender:female": 0.0012936072889715433,
+    "gender:male": -0.0019968694541603327,
+    "origin:white": -0.003483109874650836,
+    "origin:black": -0.0015669794520363212,
+    "origin:north_african": 0.003995195962488651,
+    "gender_gap": 0.003290476743131876,
+    "origin_gap": 0.007478305837139487
+  },
+  "Cross-encoder score": {
+    "gender:female": -0.21596194803714752,
+    "gender:male": -0.19088324904441833,
+    "origin:white": -0.1663827896118164,
+    "origin:black": -0.22853265702724457,
+    "origin:north_african": -0.21535232663154602,
+    "gender_gap": 0.025078698992729187,
+    "origin_gap": 0.06214986741542816
+  }
+}
