@@ -9,3 +9,6 @@ venv/
 .vscode/
 .idea/
 data/synthetic_resumes/
+var/
+web/node_modules/
+web/dist/

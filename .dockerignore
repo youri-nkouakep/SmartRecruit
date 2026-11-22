@@ -1,5 +1,9 @@
 .git
 models/
+var/
 data/resumes.csv
-__pycache__
+data/synthetic_resumes/
+web/node_modules
+web/dist
+**/__pycache__
 venv

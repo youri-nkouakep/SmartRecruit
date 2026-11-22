@@ -1,0 +1,15 @@
+services:
+  smartrecruit:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SMARTRECRUIT_DB: /data/smartrecruit.db
+      SMARTRECRUIT_LLM: ${SMARTRECRUIT_LLM:-transformers}
+      SMARTRECRUIT_LLM_MODEL: ${SMARTRECRUIT_LLM_MODEL:-}
+    volumes:
+      - app-data:/data
+      - hf-cache:/root/.cache/huggingface
+volumes:
+  app-data:
+  hf-cache:
