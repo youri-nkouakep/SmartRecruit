@@ -33,6 +33,29 @@ flowchart LR
     I --> J[Local LLM<br/>cited explanation]
 ```
 
+## Why this project
+
+**The problem.** A single job offer can attract hundreds of resumes, many of them scanned PDFs or phone photos. Recruiters sort them by hand, quickly and inconsistently. Keyword filters miss good candidates who describe the same skills in other words.
+
+**Who it is for**
+
+| User | What SmartRecruit does for them |
+| --- | --- |
+| Recruitment agency or HR team of an SME | Reads every incoming resume whatever its format, sorts it by job family, and builds a first shortlist for each offer with the evidence behind each match |
+| Job board | Fills in a candidate's profile from their resume (extraction), and suggests offers to candidates (the same matching, in the other direction) |
+| Company with a large resume database | Finds, among thousands of past applications, the profiles that fit a new opening |
+
+**The value**
+- Hours of manual screening become minutes.
+- Every match comes with evidence a recruiter can check in seconds.
+- Matching is semantic, so it finds candidates who use different words than the offer.
+
+**The limits, by design.** Recruitment is a **high-risk use case under the EU AI Act**. SmartRecruit is a *decision-support* tool, not an automated decision system:
+- it ranks and explains, and the recruiter decides;
+- identity fields are removed before any model scores a candidate;
+- every LLM statement must cite the resume, and uncited statements are flagged;
+- the models are audited for bias by name, gender and origin (section 5).
+
 ## The web application
 
 | | |
