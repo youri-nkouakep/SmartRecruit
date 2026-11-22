@@ -1,5 +1,5 @@
 """Text lines with their geometry, from a digital PDF or from an image (Tesseract OCR)."""
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import cv2
@@ -27,6 +27,7 @@ class Page:
     width: float
     height: float
     source: str = "text layer"
+    image: np.ndarray | None = field(default=None, repr=False)
 
 
 def lines_from_pdf(path: str | Path) -> Page:
@@ -61,7 +62,7 @@ def lines_from_image(image: np.ndarray, clean: bool = True) -> Page:
                           x0=g["left"].min(), y0=g["top"].min(),
                           x1=(g["left"] + g["width"]).max(), y1=(g["top"] + g["height"]).max(),
                           size=float(np.median(g["height"]))))
-    return Page(lines, img.shape[1], img.shape[0], "OCR")
+    return Page(lines, img.shape[1], img.shape[0], "OCR", img)
 
 
 def read_document(path: str | Path) -> Page:

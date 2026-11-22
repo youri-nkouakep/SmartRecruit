@@ -1,7 +1,9 @@
 """Retrieval-augmented explanations: a local LLM justifies a match by quoting the resume."""
 import json
 import re
+import threading
 import urllib.request
+from typing import Iterator
 
 LLM_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
 
@@ -30,15 +32,28 @@ class LocalLLM:
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         dtype = torch.float16 if self.device == "cuda" else torch.bfloat16
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(model_name, dtype=dtype).to(self.device).eval()
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, dtype=dtype, device_map=self.device).eval()
+
+    def _inputs(self, prompt: str):
+        messages = [{"role": "user", "content": prompt}]
+        return self.tokenizer.apply_chat_template(messages, add_generation_prompt=True,
+                                                  return_tensors="pt", return_dict=True).to(self.device)
 
     def generate(self, prompt: str, max_new_tokens: int = 180) -> str:
-        messages = [{"role": "user", "content": prompt}]
-        enc = self.tokenizer.apply_chat_template(messages, add_generation_prompt=True,
-                                                 return_tensors="pt", return_dict=True).to(self.device)
+        enc = self._inputs(prompt)
         with self.torch.no_grad():
             out = self.model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False)
         return self.tokenizer.decode(out[0, enc["input_ids"].shape[1]:], skip_special_tokens=True).strip()
+
+    def stream(self, prompt: str, max_new_tokens: int = 180) -> Iterator[str]:
+        from transformers import TextIteratorStreamer
+
+        streamer = TextIteratorStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
+        kwargs = dict(**self._inputs(prompt), max_new_tokens=max_new_tokens, do_sample=False, streamer=streamer)
+        thread = threading.Thread(target=self.model.generate, kwargs=kwargs)
+        thread.start()
+        yield from streamer
+        thread.join()
 
 
 class OllamaLLM:
@@ -47,12 +62,21 @@ class OllamaLLM:
     def __init__(self, model_name: str = "qwen2.5:3b", url: str = "http://localhost:11434"):
         self.model_name, self.url = model_name, url
 
-    def generate(self, prompt: str, max_new_tokens: int = 220) -> str:
-        body = json.dumps({"model": self.model_name, "prompt": prompt, "stream": False,
+    def _request(self, prompt: str, max_new_tokens: int, stream: bool):
+        body = json.dumps({"model": self.model_name, "prompt": prompt, "stream": stream,
                            "options": {"num_predict": max_new_tokens, "temperature": 0}}).encode()
         req = urllib.request.Request(f"{self.url}/api/generate", body, {"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=300) as r:
+        return urllib.request.urlopen(req, timeout=300)
+
+    def generate(self, prompt: str, max_new_tokens: int = 220) -> str:
+        with self._request(prompt, max_new_tokens, False) as r:
             return json.loads(r.read())["response"].strip()
+
+    def stream(self, prompt: str, max_new_tokens: int = 220) -> Iterator[str]:
+        with self._request(prompt, max_new_tokens, True) as r:
+            for line in r:
+                if line.strip():
+                    yield json.loads(line).get("response", "")
 
 
 def requirements(offer: str) -> list[str]:

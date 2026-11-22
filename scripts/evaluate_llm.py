@@ -10,19 +10,20 @@ import time
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from smartrecruit.retrieval.explain import LLM_MODEL  # noqa: E402
+from smartrecruit.retrieval.explain import LLM_MODEL, build_prompt  # noqa: E402
 from smartrecruit.service import SmartRecruit  # noqa: E402
 
 
 def main():
     service = SmartRecruit()
     offers = json.loads((ROOT / "data" / "job_offers.json").read_text())
-    hits = [(o, service.match(o["text"], k=1)[0]) for o in offers]
-    del service.indexes
+    hits = [(o, service.match_library(o["text"], k=1)[0]) for o in offers]
+    del service.library, service.reranker
     rows, cited, total = [], 0, 0
     for offer, hit in hits:
         t = time.perf_counter()
-        out = service.justify(offer["text"], hit["evidence"])
+        answer = service.llm.generate(build_prompt(offer["text"], hit["evidence"]))
+        out = {"answer": answer, **service.citation_check(answer, len(hit["evidence"]))}
         cited += out["cited_bullets"]
         total += out["bullets"]
         rows.append({"offer": offer["category"], "resume_id": hit["id"], "resume_category": hit["category"],
