@@ -7,7 +7,9 @@ An end-to-end AI system for resume screening:
 - a **local LLM** explains each match using evidence extracted from the resume;
 - a **counterfactual bias audit** checks whether names change the results.
 
-Everything runs locally and is measured.
+Everything runs locally and is measured. It ships as a **full-stack web application** (React + TypeScript frontend, FastAPI backend).
+
+![SmartRecruit demo](docs/demo.gif)
 
 | Module | Techniques | Result |
 | --- | --- | --- |
@@ -30,6 +32,22 @@ flowchart LR
     H --> I[Evidence per requirement]
     I --> J[Local LLM<br/>cited explanation]
 ```
+
+## The web application
+
+| | |
+| --- | --- |
+| ![Document AI](docs/screenshots/3_document_ai.png) | ![Matching and RAG](docs/screenshots/4_matching_rag.png) |
+| **Candidate view.** The page as the OCR saw it, with every text line boxed and colored by the section the layout analysis assigned it to. The extracted profile is editable, and saving it re-runs the classifier. | **Offer view.** Candidates ranked from your uploads or the public library. Each requirement of the offer is paired with evidence from the resume. The LLM explanation streams token by token and is checked for valid citations. |
+| ![Fairness](docs/screenshots/5_fairness.png) | ![Methodology](docs/screenshots/6_methodology.png) |
+| **Fairness.** Results of the bias audit, and identity masking: names and contact details never reach the models. | **Methodology.** Every benchmark of this README, with interactive charts. |
+
+| Layer | Stack |
+| --- | --- |
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS, TanStack Query, React Router, Recharts |
+| Backend | FastAPI: REST API with Pydantic validation, background processing of uploads, LLM streaming with server-sent events, SQLite storage |
+| ML | PyTorch, Hugging Face Transformers, sentence-transformers, FAISS, scikit-learn, OpenCV, Tesseract |
+| Delivery | Multi-stage Docker build (Node, then Python). FastAPI serves the built frontend, so one container runs everything |
 
 ---
 
@@ -137,37 +155,43 @@ None of these models should rank candidates with the name visible. The pipeline 
 
 ## Run it
 
+### With Docker (simplest)
+
+```bash
+git clone https://github.com/youri-nkouakep/smartrecruit.git && cd smartrecruit
+docker compose up --build
+```
+
+Open http://localhost:8000. The first build downloads the data and the models, which takes about 10 minutes.
+
+### Without Docker
+
 Requirements:
 - Python 3.10 or newer;
+- Node.js 20 or newer;
 - Tesseract OCR: on Windows the [UB Mannheim installer](https://github.com/UB-Mannheim/tesseract/wiki), on Linux `apt install tesseract-ocr`;
 - about 6 GB of RAM.
 
 ```bash
-git clone https://github.com/youri-nkouakep/smartrecruit.git && cd smartrecruit
 python -m venv venv && source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
 python scripts/train_classifiers.py --only tfidf embeddings   # downloads data, about 6 min on CPU
-python scripts/benchmark_docai.py                            # creates the 50 synthetic resumes
-streamlit run app/streamlit_app.py                           # demo
-uvicorn api.main:app --reload                                # API, docs at /docs
+python scripts/benchmark_docai.py                            # 50 synthetic resumes to try the app
+
+cd web && npm install && npm run build && cd ..
+uvicorn api.main:app --port 8000                             # app at http://localhost:8000, API docs at /docs
 ```
+
+For frontend development, run `npm run dev` in `web/` (port 5173, API calls go through a proxy) next to `uvicorn api.main:app --reload`.
 
 Optional steps:
 - `python scripts/train_classifiers.py --only finetune` fine-tunes DistilBERT: about 1 hour on CPU, a few minutes on a GPU (Google Colab). The app uses it automatically if it exists, otherwise TF-IDF.
 - `scripts/evaluate_retrieval.py`, `scripts/bias_audit.py` and `scripts/evaluate_llm.py` reproduce the tables above.
 - On Windows, if Tesseract is not on the PATH, add `pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"`.
-- For faster, better explanations, install [Ollama](https://ollama.com), run `ollama pull qwen2.5:3b` and use `SmartRecruit(llm_backend="ollama")`.
-
-With Docker:
+- For faster, better explanations, install [Ollama](https://ollama.com), run `ollama pull qwen2.5:3b`, then start the API with `SMARTRECRUIT_LLM=ollama`.
 
 ```bash
-docker build -t smartrecruit .
-docker run -p 8501:8501 -p 8000:8000 smartrecruit
-```
-
-```bash
-python -m pytest   # unit tests
+python -m pytest   # unit and API tests
 ```
 
 ## Structure
@@ -179,9 +203,9 @@ src/smartrecruit/
 ├── retrieval/   # search.py (BM25, FAISS, cross-encoder), metrics.py, explain.py (RAG + LLM)
 ├── fairness/    # audit.py (counterfactual names)
 ├── schema.py    # Pydantic resume model
-└── service.py   # single entry point for the API and the app
-api/             # FastAPI
-app/             # Streamlit
+└── service.py   # single entry point used by the API
+api/             # FastAPI routes (main.py) and SQLite storage (store.py)
+web/src/         # React + TypeScript frontend: pages/, components/, api.ts
 scripts/         # benchmarks and training
 results/         # every number in this README
 ```
@@ -191,7 +215,7 @@ results/         # every number in this README
 - Compare the rule-based layout analysis with **LayoutLMv3** and **Donut** on real annotated resumes.
 - Fine-tune the re-ranker on (offer, resume) pairs.
 - Add significance tests and mitigation (identity masking) to the bias audit.
-- Publish an online demo.
+- Deploy a public demo with a GPU-backed LLM.
 
 ## About
 
