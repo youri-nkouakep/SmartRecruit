@@ -1,5 +1,7 @@
 # SmartRecruit
 
+> **Context:** a 2025 master's project at Université Ibn Tofail (Master IA et Objets Connectés). I took it up again and adapted it in 2026 before publishing it here.
+
 An end-to-end AI system for resume screening:
 - **document AI** (OCR and layout analysis) reads scanned or digital resumes;
 - an **NLP classifier** (fine-tuned transformer) sorts them into job families;
