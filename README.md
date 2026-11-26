@@ -244,4 +244,4 @@ results/         # every number in this README
 
 ## About
 
-Started as a master's project at Université Ibn Tofail (2026), then fully rebuilt. All personal data in the benchmarks is synthetic. The public resume dataset is downloaded at run time and not redistributed. Code under the MIT license.
+Started as a master's project at Université Ibn Tofail (2025), then fully rebuilt in 2026. All personal data in the benchmarks is synthetic. The public resume dataset is downloaded at run time and not redistributed. Code under the MIT license.
